@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima Tempo</title>
+    <style>
+        body{margin: 0px;}
+        #azul{
+            display: flex;
+            position: fixed;
+            height: 80PX;
+            width: 100%;
+            background-color:#0080cd;
+        }
+        .azul{
+            position: relative;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            color: #ffffff;
+        }
+        .logo{
+            display: block;
+            height: 31px;
+            width: 120px;
+        }
+        .busca{
+            height: 40px;
+            width: 700px;
+            border: none;
+            color: #ffffff;
+            background-color: #0267a3;
+            border-radius: 5px;
+        }
+        .login{
+            display: flex;
+            position: relative;
+            height: 40px;
+            width: 170px;
+            margin-top: auto;
+            margin-bottom: auto;
+            border: 1px solid #ffffff;
+            background-color:#0080cd;
+            border-radius: 4px;
+        }
+        .letras{
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 15px;
+            font-weight: lighter;
+        }
+        #azul2{
+            display: flex;
+            position: fixed;
+            height: 40px;
+            width: 100%;
+            background-color: #0f4783;
+            top: 80px;
+        }
+        .titulo{
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            left: 100px;
+            color: #ffffff;
+        }
+        .icon{
+            position: relative;
+            height: 5px;
+            width: 5px;
+        }
+        .branco{
+            position: fixed;
+            background-color:#ffffff;
+            color: #404040;
+            top: 140px;
+            left: 105px;
+            border-radius: 7px;
+        }
+        .um{
+            height: 380PX;
+            width: 360px;
+        }
+        .linha1{
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 105px;
+            margin-right: 105px;
+            margin-top: 20px;
+            font-size: 18px;
+            line-height: 26px;
+        }
+        .linha2{
+            position: relative;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 105px;
+            margin-right: 105px;
+            height: 60px;
+            width: 60px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 60px;
+        }
+        .grau{
+            padding-left: 15px;
+        }
+        .dois{
+            height: 380PX;
+            width: 750px;
+            left: 495px;
+        }
+        .imagem{
+            position: fixed;
+            height: 365;
+            width: 365;
+            left: 495px;
+        }
+        .texto1{
+            font-family: Arial, Helvetica, sans-serif;
+            float: left;
+            margin-left: 535px;
+            margin-right: 15px;
+            font-size: 24px;
+            line-height: 30px;
+        }
+        .texto2{
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 535px;
+            margin-right: 15px;
+            color: #868585;
+            font-size: 15px;
+            line-height: 25px;
+        }
+        ::placeholder{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.562);
+        
+        }
+    </style>
+</head>
+
+<body bgcolor="#f2f2f2">
+    
+    <div id="azul">
+        <div class="azul logo">
+            <img src="https://www.climatempo.com.br/dist/images/v2/svg/logo-climatempo-stormgeo.svg">
+        </div>
+        <input type="text" class="azul busca" placeholder="    Buscar por uma cidade..."/>
+        <div class="azul login">
+            <img src="https://us.123rf.com/450wm/ylivdesign/ylivdesign1506/ylivdesign150603485/41373820-user-sign-icon.jpg?ver=6">
+            <h1 class="azul letras">Faça seu Login</h1>
+        </div>
+    </div>
+
+    <div id="azul2">
+            <div class="azul2 titulo">
+                <p>Clima e Previsão do Tempo</p>
+                <div class="icon">
+                </div>
+                <p>São Paulo, SP / 23°</p>
+            </div>
+    </div>
+    <div class="branco um">
+        <div class="linha1"><b>Tempo agora em São Paulo, SP</b></div>
+        <div class="linha2">
+            <img src="https://www.climatempo.com.br/dist/images/v2/svg/3n.svg">
+            <div class="grau"><b>20°</b></div>
+        </div>
+    </div>
+
+    <div class="branco dois">
+        <h2 class="texto1">Verão 2022 chega ao fim com muita chuva sobre o Brasil</h2>
+        <h3 class="texto2"><p>Temporais voltam a ocorrer em todas as regiões do país. Confira a previsão!</p></h3>
+        <div class="branco imagem">
+            <img src="https://imagens.climatempo.com.br/climapress/galeria/2022/03/515x380_14925d2b269f9f13897ce63ab027158e.jpg">   
+        </div>
+        <img src="https://www.climatempo.com.br/dist/images/v2/svg/ic-cloud.svg">
+        <div class="texto3"></div>
+    </div>
+</body>
+</html>
